@@ -6,8 +6,6 @@ This page provides detailed information on the continuous calibration feature, w
 
 The Continuous Calibration feature ensures your system always remains optimally calibrated, requiring no user intervention to maintain the tracking quality. It uses highly sophisticated algorithms to evaluate the quality of the calibration and the triangulated marker positions. Whenever the tracking accuracy degrades, Motive will automatically detect and update the calibration to provide the most globally optimized tracking system.
 
-{% embed url="https://da8mv7i4lvduk.cloudfront.net/continuous-calibration-1920.mp4" %}
-
 ### Key Features
 
 * **Ease of use.** This feature provides much easier user experience because the capture volume will not have to be re-calibrated as often, which will save a lot of time. You can simply enable this feature and have Motive maintain the calibration quality.
