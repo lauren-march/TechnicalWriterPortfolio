@@ -1,6 +1,8 @@
+> # NOTE: This document is copyright of OptiTrack and the original documentation can be found on [OptiTrack's documentation site](https://docs.optitrack.com/motive/calibration/continuous-calibration). This document was authored and edited by Lauren March and is intended for portofolio purposes ONLY.
+
 # Continuous Calibration
 
-This page provides detailed information on the continuous calibration feature, which can be enabled from the [Calibration pane](../../motive-ui-panes/calibration-pane). For additional Continuous Calibration features, please see the [Continuous Calibration (Info Pane)](continuous-calibration-info-pane) page.
+This page provides detailed information on the continuous calibration feature, which can be enabled from the [Calibration pane](dummylink). For additional Continuous Calibration features, please see the [Continuous Calibration (Info Pane)](dummylink) page.
 
 ## Overview
 
@@ -16,7 +18,7 @@ The Continuous Calibration feature ensures your system always remains optimally 
 
 For continuous calibration to work as expected, the following criteria must be met:
 
-* **Live Mode Only.** Continuous calibration only works in [Live mode](../data-recording).
+* **Live Mode Only.** Continuous calibration only works in [Live mode](dummylink).
 * **Markers Must Be Tracked.** Continuous calibration looks at tracked reconstructions to assess and update the calibration. Therefore, at least some number of markers must be tracked within the volume.
 * **Majority of Cameras Must See Markers.** A majority of cameras in a volume needs to receive some tracking data within a portion of their field of view in order to initiate the calibration process. Because of this, traditional perimeter camera systems typically work the best. Each camera should additionally see at least 4 markers for optimal calibration. If not all the cameras see the markers at the same time, anchor markers will need to be set up to improve the calibration updates.
 
@@ -26,9 +28,7 @@ For continuous calibration to work as expected, the following criteria must be m
 
 To enable Continuous Calibration, calibrate the camera system first and enable the Continuous Calibration setting at the bottom of the [Calibration pane](../../motive-ui-panes/calibration-pane). Once enabled, Motive continuously monitors the residual values in captured marker reconstructions, and when the updated calibration is better than the existing one, it will get updated automatically. Please note that at least four (default) marker samples must be being tracked in the volume for the continuous calibration to work. You will also be able to monitor the sampling progress and when the calibration has been last updated.
 
-{% hint style="warning" %}
-Please see the [Continuous Calibration (Info Pane)](continuous-calibration-info-pane) page for additional features.&#x20;
-{% endhint %}
+> #### Please see the [Continuous Calibration (Info Pane)](continuous-calibration-info-pane) page for additional features.
 
 ![Continuous calibration enabled under the Calibration pane.](https://content.gitbook.com/content/M6DLKAZnkJZyY3rN2hqt/blobs/qWk8pBOA5kBBxVwrFAZA/image.png)
 
@@ -44,9 +44,9 @@ Active markers are best to use for anchors due to their unique active IDs, which
 * Anchor markers are critical to maintaining a single calibration throughout a partitioned volume. Active markers ensure that the cameras can correctly identify each anchor marker location.
 * Active markers allow bumped cameras to update faster and more accurately, and to recover from larger disturbances than passive markers.
 
-{% hint style="info" %}
-For continuous calibration to work, It's important to have multiple markers visible to each camera, dispersed across a significant portion of that camera's field of view. This allows the system to more accurately determine the position and angle of the camera. This is true whether using active or passive markers.&#x20;
-{% endhint %}
+>For continuous calibration to work, It's important to have multiple markers visible to each camera, dispersed across a significant portion of that camera's field of view.
+>This allows the system to more accurately determine the position and angle of the camera. This is true whether using active or passive markers.&#x20;
+
 
 ### Anchor Marker Setup
 
