@@ -1,0 +1,74 @@
+# Project information
+site_name: Lauren March - Technical Writer Portfolio
+site_description: 'A body of work highlighting a variety of technical writing skills demonstrated by Lauren March.'
+site_author: Lauren March
+
+# Repository
+site_url: https://lauren-march.github.io/lauren-march-tech-writer/
+repo_name: lauren-march/TechnicalWriterPortfolio
+repo_url: https://github.com/lauren-march/TechnicalWriterPortfolio
+
+# Configuration
+theme:
+  name: material
+  custom_dir: material/overrides
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lauren-march
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/lauren-march509/
+
+# Page tree
+nav:
+  - Home: index.md
+
