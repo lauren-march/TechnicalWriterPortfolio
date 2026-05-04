@@ -54,6 +54,10 @@ theme:
   icon:
     logo: logo
 
+# Extra css styling
+extra_css:
+  - stylesheets/home.css
+
 # Additional configuration
 extra:
   status:
