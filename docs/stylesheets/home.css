@@ -21,6 +21,13 @@
     margin-bottom: 1rem;
 }
 
+.hero-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+
 .hero-content p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
