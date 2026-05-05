@@ -1,6 +1,6 @@
 # Project information
 site_name: Lauren March - Technical Writer Portfolio
-site_description: 'A seasoned Technical Writer with experience at Adaptiva, Meta, and OptiTrack. Creator of end-user and developer focused documentation for complex multimodal hardware and software systems.'
+site_description: 'A seasoned Technical Writer with experience in cybersecurity, AR/VR, and multimodal hardware and software systems.'
 site_author: Lauren March
 
 # Repository
@@ -50,9 +50,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: assets/favicon.ico
   icon:
-    logo: logo
+    logo: material/typewriter
 
 # Extra css styling
 extra_css:
