@@ -1,8 +1,17 @@
+---
+title: Adaptiva documentation samples
+description: 'Overview of the project I built from scratch for my portfolio project at the University of Washington Continuing Education course for API documentation.'
+tags:
+  - api
+  - uw
+  - portfolio
+---
+
 # UW API Specialization Portfolio piece
 
-In the fall of 2025, I decided to expand the tools in my tool-belt and venture into API documentation. As part of my final portfolio, I was instructed to create documentation from a mock API provided by a classmate. From this, I created an entire doc site using MkDocs and Github and incorporated a AI chatbot that only ingests my doc site.
+In the fall of 2025, I decided to expand the tools in my tool-belt and venture into API documentation. As part of my final portfolio, I was instructed to create documentation from a mock API provided by a classmate. From this, I created an entire doc site using MkDocs and Github and incorporated a AI chatbot that only ingests my documentation.
 
-### Links to API docs
+## Link to API docs
 
 <div class="grid cards" markdown>
 - **OpenSpot API full docs site**
