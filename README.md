@@ -1,22 +1,5 @@
-# Technical Writer Portfolio - Lauren March
+# Welcome
 
-Hello and welcome to my repository of collected works that showcase my technical writing ability! I am a seasoned Technical Writer with experience at Adaptiva, Meta, and OptiTrack, where I created user and developer focused documentation for complex multimodal hardware and software systems.
+Hello and welcome to my repository of collected works that showcase my technical writing ability! 
 
-## This repo contains the following
-
-* User Guides
-* Standard Operating Procedures
-* API Documentation
-* System Architecture/Techincal Diagrams
-* Test Plan Template
-
-## Additionally, I have experience using these tools
-
-* Markdown
-* XML
-* Figma
-* Illustrator
-* LucidChart
-* MS Word
-* Oxygen XML Editor (DITA)
-* Madcap Flare
+For my fully rendered portfolio site, please visit this [Link](https://lauren-march.github.io/TechnicalWriterPortfolio/).
