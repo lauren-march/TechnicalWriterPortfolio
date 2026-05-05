@@ -1,6 +1,6 @@
 # Project information
-site_name: Lauren March - Technical Writer Portfolio
-site_description: 'A body of work highlighting a variety of technical writing skills demonstrated by Lauren March.'
+site_name: Lauren March
+site_description: 'Hello and welcome to my repository of collected works that showcase my technical writing ability! I am a seasoned Technical Writer with experience at Adaptiva, Meta, and OptiTrack, where I created user and developer focused documentation for complex multimodal hardware and software systems. '
 site_author: Lauren March
 
 # Repository
@@ -72,7 +72,19 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/lauren-march509/
 
+# Markdown Extensions
+
+markdown-extensions:
+  - attr_list
+  - md_in_html
+
 # Page tree
 nav:
   - Home: index.md
+  - Work: work/my-work.md
+    - Adaptiva: work/my-work-adaptiva.md
+    - OptiTrack: work/my-work-optitrack.md
+    - UW Continuing Education API: work/my-work-uw-api.md
+    - Meta: work/my-work-meta.md
+  - Contact: contact/contact-me.md
 
