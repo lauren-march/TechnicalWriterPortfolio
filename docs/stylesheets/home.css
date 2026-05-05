@@ -10,19 +10,12 @@
 
 .hero-content {
     padding: 3rem 4rem;
-    max-width: 560px;
+    max-width: 600px;
     color: white;
 }
 
 .hero-content h1 {
     font-size: 2.5rem;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 1rem;
-}
-
-.hero-content h2 {
-    font-size: 2rem;
     font-weight: 700;
     color: white;
     margin-bottom: 1rem;
@@ -43,7 +36,7 @@
 .hero-content .md-button--primary {
     background-color: #b5e8ad;
     border-color: #b5e8ad;
-    color: #000000;
+    color: #000000 !important;
 }
 
 .hero-content .md-button--primary:hover {
