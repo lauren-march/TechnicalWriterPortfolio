@@ -50,7 +50,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.ico
+  favicon: assets/images/favicon.ico
   icon:
     logo: material/typewriter
 
