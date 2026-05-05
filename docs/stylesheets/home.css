@@ -10,7 +10,7 @@
 
 .hero-content {
     padding: 3rem 4rem;
-    max-width: 560px;
+    max-width: 600px;
     color: white;
 }
 
@@ -43,7 +43,7 @@
 .hero-content .md-button--primary {
     background-color: #b5e8ad;
     border-color: #b5e8ad;
-    color: #000000;
+    color: #000000 !important;
 }
 
 .hero-content .md-button--primary:hover {
