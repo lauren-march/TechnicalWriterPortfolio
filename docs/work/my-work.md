@@ -1,7 +1,3 @@
 # My latest work
 
-## Adaptiva
-
-## OptiTrack
-
-## UW API Specialization Portfolio
+Below you will find a collection of my latest work from previous employment and education experiences.
