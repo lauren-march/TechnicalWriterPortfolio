@@ -74,14 +74,15 @@ extra:
 
 # Markdown Extensions
 
-markdown-extensions:
+markdown_extensions:
   - attr_list
   - md_in_html
 
 # Page tree
 nav:
   - Home: index.md
-  - Work: work/my-work.md
+  - Work: 
+    - Overview: work/my-work.md
     - Adaptiva: work/my-work-adaptiva.md
     - OptiTrack: work/my-work-optitrack.md
     - UW Continuing Education API: work/my-work-uw-api.md
