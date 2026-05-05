@@ -82,7 +82,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Work: 
-    - Overview: work/my-work.md
     - Adaptiva: work/my-work-adaptiva.md
     - OptiTrack: work/my-work-optitrack.md
     - UW Continuing Education API: work/my-work-uw-api.md

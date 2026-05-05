@@ -1,3 +1,12 @@
+---
+title: Adaptiva documentation samples
+description: 'Overview of the work I completed at Adaptiva including links to user-facing documentation I authored.'
+tags:
+  - adaptiva
+  - documentation
+  - portfolio
+---
+
 # Adaptiva documentation samples
 
 During my time at Adaptiva, I authored customer-facing documentation with a combination of GitHub and GitBook. All docs were written in Markdown files and include yaml frontmatter metadata to ensure optimized LLM ingestion and general SEO.
@@ -17,7 +26,7 @@ The primary audience for Adaptiva products are IT System Administrators and thus
 </div>
 
 <div class="grid cards" markdown>
-- **New Feature How-To**
+- **Network architecture conceptual piece**
 
     On this page, I made a complex networking architecture concept approachable for a general audience, focusing on the 'why' behind each recommendation to encourage feature adoption and proper configuration.
 
